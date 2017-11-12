@@ -1,0 +1,77 @@
+.no-margin {
+    margin: 0;
+}
+
+.hide {
+    visibility: hidden !important;
+}
+
+/* Scene View */
+.scene-window {
+
+}
+
+.scene-view {
+    background-color: #474747;
+    width: 100%;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+/* Property Drawer */
+
+.property-drawer {
+    display: flex;
+    padding: 0.5em;
+}
+
+.property-drawer .property-drawer-label {
+    flex: 30%;
+    align-self: center;
+    overflow: hidden;
+}
+
+.property-drawer .property-drawer-content {
+    flex: 70%;
+    display: flex;
+    padding: 0 0.5em;
+
+}
+
+
+/* Color Picker Control */
+.color-drawer {
+    width: 100%;
+    height: 100%;
+}
+.color-drawer .color-drawer-rgb-display {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+/* Vector Control */
+
+.vector-drawer {
+    display: flex;
+    align-items: center;
+}
+
+.vector-drawer label {
+    flex: 0.25 0 0;
+    padding: 0.5em;
+    align-self: center;
+}
+
+.vector-drawer input[type="number"], .vector-flex {
+    flex: 2 0 0;
+}

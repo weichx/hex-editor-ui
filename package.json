@@ -1,0 +1,41 @@
+{
+  "name": "hex-editor-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@blueprintjs/core": "^1.31.0",
+    "@types/pure-render-decorator": "^0.2.28",
+    "@types/react": "^16.0.10",
+    "@types/react-addons-css-transition-group": "^15.0.3",
+    "@types/react-dom": "^16.0.1",
+    "@types/react-split-pane": "^0.1.10",
+    "pixi.js": "^4.5.6",
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-color": "^2.13.8",
+    "react-dom": "^15.0.0",
+    "react-split-pane": "^0.1.66"
+  },
+  "devDependencies": {
+    "@types/dom4": "^1.5.20",
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.34",
+    "@types/nw.js": "^0.13.7",
+    "@types/pixi.js": "^4.5.7",
+    "@types/react-color": "^2.13.2",
+    "chokidar": "^1.7.0",
+    "globby": "^6.1.0",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.3",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "webpack": "^3.7.0"
+  }
+}
